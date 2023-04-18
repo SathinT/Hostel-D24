@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="mainloginformpane" prefHeight="1039.0" prefWidth="1696.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.hostelmanagement.controller.LoginFormController">
+   <children>
+      <ImageView fitHeight="1045.0" fitWidth="1920.0" layoutY="-6.0" pickOnBounds="true">
+         <image>
+            <Image url="@../assests/images/4015282_1215.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane fx:id="loginFormPane" layoutX="479.0" layoutY="194.0" prefHeight="641.0" prefWidth="962.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+         <children>
+            <ImageView fitHeight="651.0" fitWidth="962.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../assests/images/Desktop%20-%207.jpg" />
+               </image>
+            </ImageView>
+            <TextField fx:id="userNametxt" focusTraversable="false" layoutX="69.0" layoutY="226.0" prefHeight="47.0" prefWidth="284.0" style="-fx-border-color: #880505; -fx-border-radius: 8; -fx-background-radius: 8;" />
+            <JFXButton buttonType="RAISED" focusTraversable="false" layoutX="97.0" layoutY="398.0" onAction="#loginOnAction" prefHeight="47.0" prefWidth="223.0" stylesheets="@css/FormButtonStyle.css" text=" " textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="15.0" />
+               </font>
+               <ripplerFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="#db790f7e" />
+                        <Stop color="#30261c81" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </ripplerFill>
+            </JFXButton>
+            <Group layoutX="704.0" layoutY="491.0">
+               <children>
+                  <JFXButton focusTraversable="false" layoutY="0.5" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #ECECEC; -fx-background-radius: 80;" text="." />
+               </children>
+            </Group>
+            <Text layoutX="624.0" layoutY="581.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Not a Member?">
+               <font>
+                  <Font name="Calibri Light" size="20.0" />
+               </font>
+            </Text>
+            <Hyperlink focusTraversable="false" layoutX="751.0" layoutY="562.0" onAction="#lnkRegisterNowOnAction" text="Register Now">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Hyperlink>
+            <JFXButton focusTraversable="false" layoutX="872.0" layoutY="14.0" onAction="#ExitOnAction" prefHeight="20.0" prefWidth="76.0" style="-fx-background-color: white; -fx-background-radius: 8;" text="EXIT" textFill="#9c021c">
+               <font>
+                  <Font name="Arial Bold" size="12.0" />
+               </font>
+            </JFXButton>
+            <Text fill="WHITE" layoutX="27.0" layoutY="621.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Version 1.00.00">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="69.0" layoutY="499.0" strokeType="OUTSIDE" strokeWidth="0.0">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="81.0" layoutY="355.0" strokeType="OUTSIDE" strokeWidth="0.0" translateX="-4.0">
+               <font>
+                  <Font name="System Bold" size="70.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="133.0" layoutY="353.0" strokeType="OUTSIDE" strokeWidth="0.0" translateX="-4.0" x="4.0" y="2.0">
+               <font>
+                  <Font name="System Bold" size="35.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="154.0" layoutY="445.0" strokeType="OUTSIDE" strokeWidth="0.0" translateX="-4.0" x="4.0">
+               <font>
+                  <Font name="System Bold" size="35.0" />
+               </font>
+            </Text>
+            <Group />
+            <Group layoutX="581.0" layoutY="338.0" />
+            <AnchorPane fx:id="paneSignInHide" layoutX="566.0" layoutY="178.0" prefHeight="303.0" prefWidth="327.0" style="-fx-background-color: white;" visible="false" />
+            <AnchorPane fx:id="paneResgister" layoutX="566.0" layoutY="178.0" prefHeight="303.0" prefWidth="327.0" style="-fx-background-color: white;" visible="false">
+               <children>
+                  <TextField fx:id="txtRegisterUserId" focusTraversable="false" layoutX="15.0" layoutY="73.0" prefHeight="32.0" prefWidth="298.0" promptText="UserId" style="-fx-border-color: #880505; -fx-border-radius: 8; -fx-background-radius: 8;" />
+                  <TextField fx:id="txtRegisterName" focusTraversable="false" layoutX="15.0" layoutY="115.0" prefHeight="32.0" prefWidth="298.0" promptText="Name" style="-fx-border-color: #880505; -fx-border-radius: 8; -fx-background-radius: 8;" />
+                  <TextField fx:id="txtRegisterUserName" focusTraversable="false" layoutX="15.0" layoutY="157.0" prefHeight="32.0" prefWidth="298.0" promptText="UserName" style="-fx-border-color: #880505; -fx-border-radius: 8; -fx-background-radius: 8;" />
+                  <JFXButton focusTraversable="false" layoutX="84.0" layoutY="253.0" onAction="#saveRegisterOnAction" prefHeight="36.0" prefWidth="83.0" styleClass="redButton" stylesheets="@css/FormButtonStyle.css" text="Register" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="15.0" />
+                     </font>
+                  </JFXButton>
+                  <Text layoutX="113.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sign Up">
+                     <font>
+                        <Font name="Calibri Light" size="35.0" />
+                     </font>
+                  </Text>
+                  <Hyperlink focusTraversable="false" layoutX="191.0" layoutY="257.0" onAction="#backToSignInOnAction" text="Sign In">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Hyperlink>
+                  <TextField fx:id="txtRegisterPasswordShow" focusTraversable="false" layoutX="15.0" layoutY="199.0" prefHeight="32.0" prefWidth="298.0" promptText="Password" style="-fx-border-color: #880505; -fx-border-radius: 8; -fx-background-radius: 8;" />
+                  <ImageView fx:id="imgRegisterPasswordShow" fitHeight="17.0" fitWidth="26.0" layoutX="282.0" layoutY="207.0" onMouseClicked="#hideRegisterPasswordOnAction" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assests/images/icons8-eye-48.png" />
+                     </image>
+                  </ImageView>
+                  <PasswordField fx:id="txtRegisterPasswordHide" focusTraversable="false" layoutX="15.0" layoutY="199.0" prefHeight="32.0" prefWidth="298.0" promptText="Password" style="-fx-border-color: #880505; -fx-background-radius: 8; -fx-border-radius: 8;" />
+                  <ImageView fx:id="imgRegisterPasswordHide" fitHeight="17.0" fitWidth="26.0" layoutX="282.0" layoutY="207.0" onMouseClicked="#showRegisterPasswordOnAction" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assests/images/icons8-hide-48%201.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <TextField fx:id="txtShowPassword" focusTraversable="false" layoutX="69.0" layoutY="317.0" prefHeight="47.0" prefWidth="284.0" style="-fx-border-color: #880505; -fx-border-radius: 8; -fx-background-radius: 8;" />
+            <ImageView fx:id="imgHidePassword" fitHeight="17.0" fitWidth="26.0" layoutX="320.0" layoutY="332.0" onMouseClicked="#showPasswordOnAction" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assests/images/icons8-hide-48%201.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="imgShowPassword" fitHeight="17.0" fitWidth="26.0" layoutX="324.0" layoutY="334.0" onMouseClicked="#hidePasswordOnAction" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assests/images/icons8-eye-48.png" />
+               </image>
+            </ImageView>
+         </children>
+         <effect>
+            <DropShadow blurType="GAUSSIAN" color="#000000ba" height="150.0" radius="74.5" width="150.0" />
+         </effect>
+      </AnchorPane>
+   </children>
+</AnchorPane>

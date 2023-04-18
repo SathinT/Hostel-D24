@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="842.0" prefWidth="1472.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.hostelmanagement.controller.UsersFormController">
+   <children>
+      <ImageView fitHeight="842.0" fitWidth="1472.0" pickOnBounds="true">
+         <image>
+            <Image url="@../assests/images/User.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="1094.0" layoutY="606.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2023 / 03 / 31" y="3.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="1100.0" layoutY="670.0" strokeType="OUTSIDE" strokeWidth="0.0" text="12.30 P.M." y="3.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <JFXTextField layoutX="25.0" layoutY="62.0" prefHeight="25.0" prefWidth="1382.0" visible="false" />
+      <AnchorPane layoutX="43.0" layoutY="359.0" prefHeight="66.0" prefWidth="561.0" style="-fx-background-radius: 5; -fx-border-radius: 5;">
+         <children>
+            <Text layoutX="21.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="S00 - 001" visible="false">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Text>
+            <JFXTextField focusColor="WHITE" focusTraversable="false" labelFloat="true" layoutX="22.0" layoutY="24.0" prefHeight="30.0" prefWidth="363.0" promptText="User ID" unFocusColor="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </JFXTextField>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="478.0" layoutY="359.0" prefHeight="66.0" prefWidth="561.0" style="-fx-background-radius: 5; -fx-border-radius: 5;">
+         <children>
+            <Text layoutX="21.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Male" visible="false">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Text>
+            <JFXTextField focusColor="WHITE" focusTraversable="false" labelFloat="true" layoutX="22.0" layoutY="24.0" prefHeight="30.0" prefWidth="363.0" promptText="Name" unFocusColor="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </JFXTextField>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="42.0" layoutY="426.0" prefHeight="66.0" prefWidth="561.0" style="-fx-background-radius: 5; -fx-border-radius: 5;">
+         <children>
+            <Text layoutX="21.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="S00 - 001" visible="false">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Text>
+            <AnchorPane layoutX="2.0" layoutY="2.0" prefHeight="66.0" prefWidth="465.0" style="-fx-background-radius: 5; -fx-border-radius: 5;">
+               <children>
+                  <Text layoutX="21.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Male" visible="false">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Text>
+                  <JFXTextField focusColor="WHITE" focusTraversable="false" labelFloat="true" layoutX="22.0" layoutY="24.0" prefHeight="30.0" prefWidth="363.0" promptText="Username" unFocusColor="WHITE">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </JFXTextField>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="49.0" layoutY="494.0" prefHeight="66.0" prefWidth="561.0" style="-fx-background-radius: 5; -fx-border-radius: 5;">
+         <children>
+            <Text layoutX="21.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="S00 - 001" visible="false">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Text>
+            <JFXTextField focusColor="WHITE" focusTraversable="false" labelFloat="true" layoutX="17.0" layoutY="27.0" prefHeight="30.0" prefWidth="363.0" promptText="Password" unFocusColor="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </JFXTextField>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="473.0" layoutY="496.0" prefHeight="66.0" prefWidth="561.0" style="-fx-background-radius: 5; -fx-border-radius: 5;">
+         <children>
+            <Text layoutX="21.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Male" visible="false">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Text>
+            <JFXTextField focusColor="WHITE" focusTraversable="false" labelFloat="true" layoutX="22.0" layoutY="24.0" prefHeight="30.0" prefWidth="374.0" promptText="Confirm Password" unFocusColor="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </JFXTextField>
+         </children>
+      </AnchorPane>
+      <JFXButton focusTraversable="false" layoutX="200.0" layoutY="646.0" prefHeight="39.0" prefWidth="492.0" styleClass="redButton" stylesheets="@css/FormButtonStyle.css" text="Save" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </JFXButton>
+      <JFXButton focusTraversable="false" layoutX="474.0" layoutY="698.0" prefHeight="39.0" prefWidth="218.0" styleClass="whiteButton" stylesheets="@css/FormButtonStyle.css" text="Cancel" textFill="#c1455a">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </JFXButton>
+      <JFXButton focusTraversable="false" layoutX="200.0" layoutY="698.0" prefHeight="39.0" prefWidth="238.0" styleClass="blackButton" stylesheets="@css/FormButtonStyle.css" text="Clear" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </JFXButton>
+      <JFXButton focusTraversable="false" layoutX="663.0" layoutY="545.0" prefHeight="39.0" prefWidth="111.0" styleClass="redButton" stylesheets="@css/FormButtonStyle.css" text="Update" textFill="WHITE" visible="false">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </JFXButton>
+      <JFXButton focusTraversable="false" layoutX="789.0" layoutY="544.0" prefHeight="39.0" prefWidth="111.0" styleClass="whiteButton" stylesheets="@css/FormButtonStyle.css" text="Delete" textFill="#c1455a" visible="false">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </JFXButton>
+      <AnchorPane layoutX="243.0" layoutY="303.0" prefHeight="39.0" prefWidth="448.0" style="-fx-border-color: black; -fx-background-radius: 5; -fx-border-radius: 5;">
+         <children>
+            <JFXTextField focusColor="WHITE" focusTraversable="false" layoutX="10.0" layoutY="6.0" prefHeight="29.0" prefWidth="396.0" promptText="Search Student Id Here..." unFocusColor="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </JFXTextField>
+            <JFXButton buttonType="RAISED" focusTraversable="false" layoutX="417.0" layoutY="5.0" prefHeight="31.0" prefWidth="13.0" style="-fx-background-radius: 15;" text="." textFill="#ffffff00" translateX="-3.0" translateY="-1.0">
+               <graphic>
+                  <ImageView fitHeight="23.0" fitWidth="30.0" layoutX="4.0" pickOnBounds="true" preserveRatio="true" translateX="3.0">
+                     <image>
+                        <Image url="@../assests/images/icons8-search-client-48.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <ripplerFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="#bf455bbb" />
+                        <Stop color="#f78f8fbe" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </ripplerFill>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+      <Text fx:id="txtAddNewUser" layoutX="1171.0" layoutY="146.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add New User" visible="false" y="3.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <JFXButton fx:id="btnAddNewUser" buttonType="RAISED" focusTraversable="false" layoutX="1268.0" layoutY="124.0" onAction="#addNewUserOnAction" prefHeight="39.0" prefWidth="46.0" style="-fx-background-radius: 100;" text="." textFill="#ffffff00" visible="false">
+         <graphic>
+            <ImageView fitHeight="51.0" fitWidth="23.0" layoutX="4.0" pickOnBounds="true" preserveRatio="true" translateX="4.0">
+               <image>
+                  <Image url="@../assests/images/icons8-add-administrator-48.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <ripplerFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#bd465c33" />
+                  <Stop color="#f58e8e32" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </ripplerFill>
+      </JFXButton>
+      <JFXTextField focusColor="WHITE" focusTraversable="false" labelFloat="true" layoutX="503.0" layoutY="452.0" prefHeight="30.0" prefWidth="363.0" promptText="Email" unFocusColor="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </JFXTextField>
+   </children>
+</AnchorPane>
