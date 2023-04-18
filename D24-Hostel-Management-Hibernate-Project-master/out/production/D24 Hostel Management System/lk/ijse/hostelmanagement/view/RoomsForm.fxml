@@ -47,7 +47,7 @@
                   <Font name="System Bold" size="14.0" />
                </font>
             </Text>
-            <JFXTextField fx:id="txtRoomNumber" focusColor="WHITE" focusTraversable="false" layoutX="4.0" layoutY="38.0" prefHeight="30.0" prefWidth="301.0" promptText="Room Number" unFocusColor="WHITE">
+            <JFXTextField fx:id="txtRoomNumber" focusColor="WHITE" focusTraversable="false" labelFloat="true" layoutX="4.0" layoutY="38.0" prefHeight="30.0" prefWidth="301.0" promptText="Room Number" unFocusColor="WHITE">
                <font>
                   <Font name="System Bold" size="14.0" />
                </font>
@@ -61,7 +61,7 @@
                   <Font name="System Bold" size="14.0" />
                </font>
             </Text>
-            <JFXTextField fx:id="txtKeyMoney" focusColor="WHITE" focusTraversable="false" layoutX="14.0" layoutY="29.0" prefHeight="30.0" prefWidth="322.0" promptText="Key Money" unFocusColor="WHITE">
+            <JFXTextField fx:id="txtKeyMoney" focusColor="WHITE" focusTraversable="false" labelFloat="true" layoutX="14.0" layoutY="29.0" prefHeight="30.0" prefWidth="322.0" promptText="Key Money" unFocusColor="WHITE">
                <font>
                   <Font name="System Bold" size="14.0" />
                </font>
@@ -75,7 +75,7 @@
                   <Font name="System Bold" size="14.0" />
                </font>
             </Text>
-            <JFXTextField fx:id="txtRoomType" focusColor="WHITE" focusTraversable="false" layoutY="36.0" prefHeight="30.0" prefWidth="322.0" promptText="Room Type" unFocusColor="WHITE">
+            <JFXTextField fx:id="txtRoomType" focusColor="WHITE" focusTraversable="false" labelFloat="true" layoutY="36.0" prefHeight="30.0" prefWidth="322.0" promptText="Room Type" unFocusColor="WHITE">
                <font>
                   <Font name="System Bold" size="14.0" />
                </font>
@@ -89,7 +89,7 @@
                   <Font name="System Bold" size="14.0" />
                </font>
             </Text>
-            <JFXTextField fx:id="txtQty" focusColor="WHITE" focusTraversable="false" layoutX="14.0" layoutY="29.0" prefHeight="30.0" prefWidth="222.0" unFocusColor="WHITE">
+            <JFXTextField fx:id="txtQty" focusColor="WHITE" focusTraversable="false" labelFloat="true" layoutX="14.0" layoutY="29.0" prefHeight="30.0" prefWidth="222.0" promptText="Qty" unFocusColor="WHITE">
                <font>
                   <Font name="System Bold" size="14.0" />
                </font>
