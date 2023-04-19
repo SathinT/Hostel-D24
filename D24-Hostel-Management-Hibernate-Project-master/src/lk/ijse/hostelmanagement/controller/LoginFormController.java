@@ -69,7 +69,7 @@ public class LoginFormController {
     }
 
     public void loginOnAction(ActionEvent actionEvent) throws IOException {
-        if(userNametxt.getText().equals("user")) {
+        if(userNametxt.getText().equals("admin")) {
             if (txtHidePassword.getText().equals("1234") && txtShowPassword.getText().equals("1234"));
                 Navigation.navigate(Routes.MANAGEMENT, mainloginformpane);
         }
